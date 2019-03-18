@@ -112,7 +112,7 @@
   }
 }
 
-@media only screen and (max-width : 655px) {
+@media only screen and (min-width : 480px) and (max-width : 655px) {
   .header__tagline {
     margin-top: 10vh;
   }
@@ -126,13 +126,13 @@
   justify-content: center;
   }
   .search {
-    width: 350px;
+    width: 480px;
   }
   .search__form {
-    width: 350px;
+    width: 480px;
   }
   .form__input {
-    width: 350px;
+    width: 480px;
   }
   .tag {
     flex-direction: column;
@@ -141,16 +141,61 @@
     justify-content: center;
   }
   .article {
-    width: 350px;
+    width: 480px;
   }
   .article__body {
         flex-wrap: wrap;
-    width: 400px;
+    width: 500px;
     justify-content: center;
   }
   .article__text {
 
-    width: 350px;
+    width: 400px;
+  }
+  .article__picture {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .header__tagline {
+    margin-top: 10vh;
+  }
+  .header__desc {
+  margin-top: 4vh;
+  }
+  .category__img--first, .category__img--last, .category__img--zakopane, .category__img--sopot {
+  display: none;
+  }
+  .categories {
+  justify-content: center;
+  }
+  .search {
+    width: 320px;
+  }
+  .search__form {
+    width: 320px;
+  }
+  .form__input {
+    width: 320px;
+  }
+  .tag {
+    flex-direction: column;
+  }
+  .cards {
+    justify-content: center;
+  }
+  .article {
+    width: 320px;
+  }
+  .article__body {
+        flex-wrap: wrap;
+    width: 320px;
+    justify-content: center;
+  }
+  .article__text {
+
+    width: 320px;
   }
   .article__picture {
     display: none;
