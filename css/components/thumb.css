@@ -1,0 +1,76 @@
+.category {
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  width: 345px;
+  height: 433px;
+}
+
+.category__img--first {
+  background-image: url(../images/thumb1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.category__img--zakopane {
+  background-image: url(../images/thumb2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.category__img--sandomierz {
+  background-image: url(../images/thumb3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.category__img--sopot {
+  background-image: url(../images/thumb4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.category__img--last {
+  background-image: url(../images/thumb5.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.category:first-child {
+  margin-left: 0px;
+}
+
+.category:last-child {
+  margin-right: 0px;
+}
+
+.category__info {
+  position: absolute;
+  bottom: 65px;
+  width: 100%;
+}
+
+.category__country, .category__city, .category__city--margin {
+  padding: 0px 0px;
+  margin: 0px 0px;
+  width: 100%;
+}
+
+.category__country {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #fff;
+}
+
+.category__city {
+  color: #fff;
+  font-size: 14px;
+}
+
+.yellow {
+  color: #b98000;
+}
+
+.category__button--margin {
+  margin-top: 75px;
+}

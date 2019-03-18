@@ -1,0 +1,25 @@
+.button {
+  background-color: #ffc74a;
+  border-radius: 30px;
+  color: #b98000;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 30px;
+  border: none;
+}
+
+.button--card {
+  background-color: #fff;
+  border-radius: 30px;
+  color: #bdc8d9;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 0px 0px 54px 0px rgba(141, 148, 169, 0.25);
+}
+
+.button--active {
+  background-color: #ffc74a;
+  color: #b98000;
+}

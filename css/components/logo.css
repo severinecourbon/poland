@@ -1,0 +1,21 @@
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar__logo__icon {
+  height: 61px;
+  width: 51px;
+}
+.navbar__logo__tagline {
+  color: #fff;
+  font-size: 30px;
+    margin: 0px;
+
+}
+
+.logo--padding {
+  padding: 0px 19px 0px 40px;
+}

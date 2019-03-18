@@ -1,0 +1,25 @@
+
+.tag__options > .tag__item {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: #bdc8d9;
+  border-radius: 25px;
+  color: #fff;
+  display: inline-flex;
+}
+
+.tag__options > .item--active {
+  background-color: #ffc74a;
+}
+
+.tag__places > .tag__item {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 25px;
+  color: #8d97a5;
+  border: 1px solid #8d97a5;
+  display: inline-flex;
+}
