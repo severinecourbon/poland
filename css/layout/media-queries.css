@@ -158,6 +158,10 @@
 }
 
 @media only screen and (max-width : 480px) {
+  .header__tagline h1 {
+    font-size: 55px;
+    line-height: 70px;
+  }
   .header__tagline {
     margin-top: 10vh;
   }
